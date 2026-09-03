@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume | Manthri Karthik</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',Arial,sans-serif;background:#f1f4f9;color:#1a2438;line-height:1.6;padding:30px 16px}
+.sheet{max-width:820px;margin:auto;background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:48px;box-shadow:0 20px 50px -25px rgba(0,0,0,.25)}
+.top{border-bottom:3px solid #2563eb;padding-bottom:18px;margin-bottom:24px}
+h1{font-size:34px;letter-spacing:-1px;color:#0b1424}
+.role{color:#2563eb;font-weight:600;font-size:17px;margin-top:4px}
+.contact{margin-top:12px;color:#475569;font-size:14px;display:flex;flex-wrap:wrap;gap:6px 18px}
+.contact a{color:#2563eb;text-decoration:none}
+h2{font-size:15px;text-transform:uppercase;letter-spacing:1.5px;color:#2563eb;margin:26px 0 12px;border-bottom:1px solid #e2e8f0;padding-bottom:6px}
+.job{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+.job h3{font-size:16px}
+.job .date{color:#64748b;font-size:14px}
+.sub{color:#475569;font-size:14px;margin:2px 0 8px}
+ul{margin:0 0 0 20px;font-size:14.5px;color:#334155}
+li{margin:5px 0}
+.skills{display:flex;flex-wrap:wrap;gap:8px}
+.skills span{background:#eef4ff;border:1px solid #dbe6ff;color:#1d4ed8;padding:5px 12px;border-radius:7px;font-size:13.5px}
+.proj{margin-bottom:14px}
+.proj h3{font-size:15.5px}
+.proj p{font-size:14px;color:#475569}
+.tech{color:#2563eb;font-size:13px;margin-top:3px}
+.print-btn{display:inline-block;margin:0 auto 20px;background:#2563eb;color:#fff;border:none;padding:11px 22px;border-radius:9px;font-size:14px;font-weight:600;cursor:pointer;text-align:center}
+.print-wrap{max-width:820px;margin:0 auto 16px;text-align:right}
+@media print{body{background:#fff;padding:0}.sheet{box-shadow:none;border:none}.print-wrap{display:none}}
+</style>
+</head>
+<body>
+<div class="print-wrap"><button class="print-btn" onclick="window.print()">⬇ Print / Save as PDF</button></div>
+<div class="sheet">
+  <div class="top">
+    <h1>Manthri Karthik</h1>
+    <div class="role">Software Engineer · C++ · Java</div>
+    <div class="contact">
+      <a href="mailto:manthrikarthik1209@gmail.com">manthrikarthik1209@gmail.com</a>
+      <span>+91 97047 99039</span>
+      <span>Hyderabad, India</span>
+      <a href="https://linkedin.com/in/karthik1209" target="_blank">linkedin.com/in/karthik1209</a>
+      <a href="https://leetcode.com/u/Karthik_801/" target="_blank">leetcode.com/u/Karthik_801</a>
+    </div>
+  </div>
+
+  <h2>Summary</h2>
+  <p style="font-size:14.5px;color:#334155">Software Engineer with hands-on experience in C++ and Java, and a strong foundation in Object-Oriented Programming, Data Structures &amp; Algorithms, debugging, problem-solving and automotive software development.</p>
+
+  <h2>Experience</h2>
+  <div class="job">
+    <h3>Software Engineer · Quest Global</h3>
+    <span class="date">2024 – Present</span>
+  </div>
+  <p class="sub">Client: General Motors · Project: Human Machine Interface (HMI) · Hyderabad</p>
+  <ul>
+    <li>Developed and maintained C++ software components for RTOS-based automotive infotainment systems.</li>
+    <li>Implemented new features, debugged issues and improved software reliability.</li>
+    <li>Worked on Virtual Controls including Crab Walk, Motion Sensor, UGDO and Power Base functionalities.</li>
+    <li>Used VData and Bindable Data to initialize signals with default values.</li>
+    <li>Contributed to Auto Park Assist functionality and event-triggering logic.</li>
+    <li>Performed code reviews, debugging, unit testing and issue resolution within Agile cycles.</li>
+  </ul>
+
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <span>C++</span><span>Java</span><span>Python</span><span>OOP</span><span>Data Structures &amp; Algorithms</span>
+    <span>Problem Solving</span><span>Unit Testing</span><span>Git</span><span>GitHub</span><span>Qt</span>
+    <span>Jira</span><span>Bitbucket</span><span>TestRail</span><span>Sourcetree</span><span>Linux</span>
+    <span>Claude</span><span>ChatGPT</span><span>GitHub Copilot</span><span>Gemini</span><span>Prompt Engineering</span><span>AI-Assisted Development</span>
+  </div>
+
+  <h2>Projects</h2>
+  <div class="proj">
+    <h3>Hand Gesture Mouse Control</h3>
+    <p>Contactless mouse-control prototype using computer vision to detect and track hand movements, simulating mouse actions in real time.</p>
+    <div class="tech">Python · OpenCV · MediaPipe · Autopy</div>
+  </div>
+  <div class="proj">
+    <h3>Blockchain Navigator</h3>
+    <p>Prototype giving cryptocurrency investors understandable insights — price trends, market caps and key financial metrics.</p>
+    <div class="tech">Python · CoinGecko API</div>
+  </div>
+</div>
+</body>
+</html>
